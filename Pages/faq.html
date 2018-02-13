@@ -16,49 +16,7 @@
     
    <script type="text/javascript" src="../resource/js/header.js"></script> 
     <script type="text/javascript" src="../resource/js/banner.js"></script>    
-    <div id="divFAQ" style="padding-top:10px">        
-        <h2>Here are some of the most frequently asked questions that employees have about DXC University.</h2>
-    </div>  
-   
-    <div class="tab" style="bottom:10px" >
-        <button class="tablinks"  id="defaultOpen"></button>
-    </div>
 
-        <script>
-        //Code Starts
-        $(document).ready(function () {
-             var strTable = '<table width=100% border=1>'
-            $.ajax({
-                type: "GET",
-                url: "https://raw.githubusercontent.com/poc-org/help/master/resource/include/QuestionAnswer.xml",
-                dataType: "xml",
-                success: function (xml) {
-                    var count = 1;
-                    $(xml).find('FAQ').each(function () {                        
-                        var strQuestion = $(this).attr('Question');
-                        var strAnswer = $(this).attr('Answer');
-                        strTable += '<tr><td align="justify"><img src="../resource/images/yel_icon.jpg" alt="" style="width:auto; height:20px;" onClick="blabla('+count+')">' + strQuestion ;
-                        strTable += '<div id=' + count + ' style="padding-left:20px;display:none;">' + strAnswer + '</div></td></tr>';
-                        $("#" + count + "").hide();
-                        count++;
-                    });
-                    strTable += '</table>';
-                    $('#divFAQ').append(strTable);
-                },
-                error: function () {
-                    alert("An error occurred while processing XML file." + Response);
-                }
-
-            });
-        });
-
-        //Code Ends
-    //Toggle function start //
-        function blabla(toggle) {
-            $('#' + toggle).toggle();
-        }
-     //Toggle function End
-    </script>
 
     
 </body>
