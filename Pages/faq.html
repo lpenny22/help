@@ -13,7 +13,7 @@
     <script>
         //Code Starts
         $(document).ready(function () {
-             var strTable = '<table style="border-spacing: 5px; width:100%; border:1px">'
+             var strTable = '<table style="width:100%; border:1px">'
             $.ajax({
                 type: "GET",
                 url: "https://raw.githubusercontent.com/poc-org/help/master/resource/include/QuestionAnswer.xml",
@@ -23,7 +23,7 @@
                     $(xml).find('FAQ').each(function () {                        
                         var strQuestion = $(this).attr('Question');
                         var strAnswer = $(this).attr('Answer');
-                        strTable += '<tr><td align="justify"><img src="../resource/images/yel_icon.jpg" alt="" style="width:auto; height:20px;" onClick="blabla('+count+')">' + strQuestion;
+                        strTable += '<tr><td align="justify" style="border-spacing:5px"><img src="../resource/images/yel_icon.jpg" alt="" style="width:auto; height:20px;" onClick="blabla('+count+')">' + strQuestion;
                         strTable += '<div id=' + count + ' style="padding-left:20px;display:none;">' + strAnswer + '</div></td></tr>';
                         $("#" + count + "").hide();
                         count++;
