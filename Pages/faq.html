@@ -23,7 +23,7 @@
                     $(xml).find('FAQ').each(function () {                        
                         var strQuestion = $(this).attr('Question');
                         var strAnswer = $(this).attr('Answer');
-                        strTable += '<tr style="padding-top:10px; padding-bottom:10px;"><td align="justify"><img src="../resource/images/yel_icon.jpg" alt="" style="width:auto; height:20px;" onClick="blabla('+count+')">' + strQuestion ;
+                        strTable += '<tr><td align="justify"><img src="../resource/images/yel_icon.jpg" alt="" style="width:auto; height:20px;" onClick="blabla('+count+')"> <p>' + strQuestion + '</p>' ;
                         strTable += '<div id=' + count + ' style="padding-left:20px;display:none;">' + strAnswer + '</div></td></tr>';
                         $("#" + count + "").hide();
                         count++;
