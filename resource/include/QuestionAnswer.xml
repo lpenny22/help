@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
- 
+<?xml version="1.0" encoding="utf-8" ?> 
 <FAQList>
-<Content type="html">  
-<![CDATA[  
+
   <FAQ Question="How do I register for a course?"
          Answer="Find the course by searching or browsing and then click ‘Enroll’">
   </FAQ>
@@ -10,7 +8,7 @@
          Answer="DXC should not want to receive another party’s confidential information because DXC will&#xA; 
                  then have the burden to maintain that information as confidential, and DXC’s freedom of&#xD; 
                  invention and action may be compromised because of knowing such confidential information.&lt;br /&gt; 
-                 However, in situations where it is necessary for DXC to receive such sensitive information<br /> 
+                 <![CDATA[However, in situations where it is necessary for DXC to receive such sensitive information<br />]]> 
                  from another party, a proper Confidential Disclosure Agreement (CDA) should be executed<br /> 
                  before receiving such information. Please refer to the “Receiving Sensitive Information”<br /> 
                  section in the &lt;a href=&quot; http://standards.int.hpe.com/policy/docs/hpe010-04.htm&quot; target=&quot;_blank&quot;&gt;DXC Confidential Information Policy&lt;/a&gt;.">
@@ -35,6 +33,4 @@
       Answer="Please contact your DXC Legal Attorney or Contracts Negotiator. DXC Legal professionals are assigned by business unit, function and geographic location. Please direct your &lt;a href=&quot; https://techdirect.corp.int.hpe.com/support/submitNew.aspx&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;technical questions here&lt;/b&gt;&lt;/a&gt;.">
   </FAQ>
 
-  ]]>
-  </Content>
 </FAQList>
