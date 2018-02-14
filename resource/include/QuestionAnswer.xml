@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<![CDATA[ 
+ 
 <FAQList>
+<Content type="html" view="home">  
+<![CDATA[  
   <FAQ Question="How do I register for a course?"
          Answer="Find the course by searching or browsing and then click ‘Enroll’">
   </FAQ>
@@ -33,5 +35,6 @@
       Answer="Please contact your DXC Legal Attorney or Contracts Negotiator. DXC Legal professionals are assigned by business unit, function and geographic location. Please direct your &lt;a href=&quot; https://techdirect.corp.int.hpe.com/support/submitNew.aspx&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;technical questions here&lt;/b&gt;&lt;/a&gt;.">
   </FAQ>
 
+  ]]>
+  </Content>
 </FAQList>
-]]>
