@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
  
 <FAQList>
-<Content type="html" view="home">  
+<Content type="html">  
 <![CDATA[  
   <FAQ Question="How do I register for a course?"
          Answer="Find the course by searching or browsing and then click ‘Enroll’">
