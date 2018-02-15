@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<Module>
-  <ModulePrefs title="DXCU Help/FAQ" height="1100">
-    <Require feature="dynamic-height"/>
-  </ModulePrefs>
-  <Content type="html" view="home,canvas,profile">
-<![CDATA[
 
 <FAQList>
 
@@ -41,7 +35,3 @@
   </FAQ>
 
 </FAQList>
-
-  ]]>
-  </Content>
-</Module>    
